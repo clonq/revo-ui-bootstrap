@@ -14,3 +14,14 @@ config:
   clonq/revo-ui-bootstrap:
     load: clonq/revo-config-ui
 ```
+
+To remove elements from the DOM:
+
+```
+# revo recipe
+config:
+  clonq/revo-ui-bootstrap:
+    remove: "nav, .container"
+```
+
+
